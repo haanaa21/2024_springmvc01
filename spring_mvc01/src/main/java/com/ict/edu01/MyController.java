@@ -27,7 +27,7 @@ public class MyController {
 	}
 	@GetMapping("/start7")
 	public ModelAndView test03(HttpServletRequest request) {
-		request.setAttribute("msg", "안녕하세요");
+		request.setAttribute("msg", "안녕하세요, 반가워요!");
 		return new ModelAndView("day01/result5");
 	}
 	@GetMapping("/start8")
